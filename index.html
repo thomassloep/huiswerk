@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Huiswerk van Thomas</title>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#fff;--ink:#22304a;--soft:#5b6780;--page:#f3f6fa;--btn:#f1f4f9}
+@media (prefers-color-scheme:dark){:root{--paper:#1d2433;--ink:#eef1f7;--soft:#a8b2c7;--page:#141a25;--btn:#2a3245}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--page);color:var(--ink);font-family:"Fredoka",system-ui,sans-serif;font-size:18px}
+main{max-width:640px;margin:0 auto;padding:28px 16px}
+h1{font-size:2.2rem;margin:0 0 4px}
+p{color:var(--soft);margin:0 0 24px}
+a.card{display:flex;align-items:center;gap:16px;background:var(--paper);color:inherit;text-decoration:none;border-radius:14px;padding:16px 18px;margin-bottom:12px;border-left:10px solid var(--c);box-shadow:0 1px 3px rgba(0,0,0,.08)}
+a.card:hover,a.card:focus-visible{outline:3px solid var(--c);outline-offset:2px}
+a.card b{display:block;font-size:1.25rem;font-weight:600}
+a.card span{color:var(--soft);font-size:1rem}
+</style>
+</head>
+<body>
+<main>
+  <h1>Huiswerk van Thomas</h1>
+  <p>Kies wat je wilt oefenen.</p>
+  <a class="card" href="provincies.html" style="--c:#e8792b"><div><b>Nederland: provincies en hoofdsteden</b><span>12 provincies</span></div></a>
+  <a class="card" href="rivieren.html" style="--c:#14889a"><div><b>Nederland: rivieren</b><span>Grote rivieren en alle rivieren</span></div></a>
+  <a class="card" href="europa.html" style="--c:#2f7fc1"><div><b>Europa: landen en hoofdsteden</b><span>Per regio of heel Europa</span></div></a>
+</main>
+</body>
+</html>
